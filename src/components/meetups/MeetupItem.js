@@ -16,9 +16,9 @@ function MeetupItem(props) {
       favouritesCtx.addFavourite({
         id: props.id,
         title: props.title,
-        description: props.description,
         image: props.image,
-        address: props.image,
+        address: props.address,
+        description: props.description,
       });
     }
   }
